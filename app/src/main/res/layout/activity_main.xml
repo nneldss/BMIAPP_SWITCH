@@ -15,12 +15,12 @@
         android:textSize="45sp"
         android:textColor="#000"
         android:layout_marginHorizontal="25dp"
-         />
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your Weight in kg"
+        android:text="Your Height in cm"
         android:layout_marginHorizontal="30dp"
         />
 
@@ -37,7 +37,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your Height in cm"
+        android:text="Your Weight in kg"
         android:layout_marginHorizontal="30dp"
         android:layout_marginVertical="15dp"
         />
@@ -51,6 +51,7 @@
         android:inputType="numberDecimal"
         android:padding="12dp" />
     <Button
+        android:id="@+id/btnCompute"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
@@ -58,15 +59,6 @@
         android:text="Calculate"
         android:background="@drawable/btn_bg"
         android:textColor="#fafafa"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:text="Your Result"
-        android:textSize="40sp"
-        android:textColor="#000"
         />
 
     <TextView

@@ -22,6 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".result1"/>
+        <activity android:name=".result2"/>
+        <activity android:name=".result3"/>
     </application>
 
 </manifest>
